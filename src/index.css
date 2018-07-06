@@ -74,6 +74,13 @@ p a {
 p a:hover {
 	color: #eb983e;
 }
+
+
+
+
+
+
+
 /*------------------------------ Sprites ------------------------------*/
 .searchbar input, .more, .select, #connect a {
 	background: url(/images/interface.png) no-repeat;

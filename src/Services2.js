@@ -1,13 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import './index.css';
 
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
 // render both of them in different places when the
 // path matches the current URL.
-const routes = [
+
+
+const routes= [
   {
-    path: "/",
+    path: "/home",
     exact: true,
     sidebar: () => <div>home!</div>,
     main: () => <h2>Home</h2>
@@ -29,17 +32,18 @@ const Services2 = () => (
     <div style={{ display: "flex" }}>
       <div
         style={{
-          padding: "10px",
-          width: "40%",
-          background: "#f0f0f0"
+       
+          marginLeft: "3%",
+          width: "20%",
+          background: "#fff"
         }}
       >
-        <ul style={{ listStyleType: "none", padding: 0 }}>
+        <ul  className="puerto-menu" >
           <li>
-            <Link to="/">Home</Link>
+            <Link  to="/home">Home</Link>
           </li>
           <li>
-            <Link to="/bubblegum">Bubblegum</Link>
+            <Link  to="/bubblegum">Bubblegum</Link>
           </li>
           <li>
             <Link to="/shoelaces">Shoelaces</Link>

@@ -5,7 +5,7 @@ import './index.css';
 import Footer from './Footer';
 import Products from './Products';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Services from './Services';
+import Services2 from './Services2';
 import Products2 from './Products2'
 
 
@@ -54,9 +54,9 @@ const Menu2 = () => (
   
      
 
-      <Route path="/products" component={Products2}/>
+      <Route path="/products" component={Products}/>
 
-       <Route path="/services" component={Services}/>
+       <Route path="/services" component={Services2}/>
     
     </div>  
   </Router>

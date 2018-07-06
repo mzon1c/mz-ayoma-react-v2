@@ -1,0 +1,42 @@
+
+      <div id="contents">
+        <div class="side-menu">
+          <ul>
+
+                <li>
+                    <a href="" onClick={clickme}>Photo Printers</a>
+                </li>
+                <li>
+                    <a href="">Inkjet Printers</a>
+                </li>
+                <li>
+                    <a href="">Sublimation Printers</a>
+                </li>
+                <li>
+                    <a href="">ID Card Printers</a>
+                </li>
+                <li>
+                    <a href="">UV Printers</a>
+                </li>
+                <li>
+                    <a href="">T-Shirts/MUG Printers</a>
+                </li>
+                <li>
+                    <a href="">CAP/Tile Printers</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                    <a href="">Lamination Machine</a>
+                </li>
+
+            </ul>
+            <ul>
+            <li>
+              <a href="">Paper Cutter</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+

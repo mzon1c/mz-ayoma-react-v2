@@ -1,0 +1,135 @@
+/** .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+**/
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	list-style: none;
+	width: 650px;
+	margin: 0 auto;
+	padding: 0;
+
+
+
+
+}
+#navigation li {
+	float: center;
+	height: 60px;
+	width: 160px;
+
+	text-align: center;
+}
+#navigation li a {
+	color: #78450d;
+	display: inline-block;
+	font: 18px/24px 'OpenSans-Semibold';
+	padding: 60px 25px 0;
+	text-decoration: none;
+	/*text-shadow: 0 1px #fbc78e;*/
+}
+#navigation li:hover{
+
+
+}
+
+
+#navigation li.selected {
+		background: url(images/bg-navigation-hover.png) no-repeat center top;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #f39c12;
+	/*text-shadow: 0 1px #bf6d13;*/
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#contents .side-menu{
+
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	    width: 200px; /* Set the width of the sidebar */
+	  /*   position: fixed; Fixed Sidebar (stay in place on scroll) */
+	    z-index: 1; /* Stay on top */
+	    top: 0; /* Stay at the top */
+	    left: 0;
+			margin-top: 10%;
+			text-decoration: none;
+	     background-color: #ecf0f1;/* Black */
+	    overflow-x: hidden; /* Disable horizontal scroll */
+	    padding-top: 20px;
+			border-radius: 5px;
+
+}
+
+#contents .side-menu a{
+	text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .navigation {
+		position: relative;
+    display: inline-block;
+
+
+  }
+
+
+
+}
+
+
+@media screen and (max-width: 600px) {
+  .navigation.responsive {position: relative;}
+  .navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navigation.responsive li {
+
+  }
+}
+@media screen and (max-width: 600px){
+html, body{
+
+overflow-x:hidden;
+position: relative;
+margin: 0;
+height: 100%;
+}
+
+#page{
+
+	overflow-x:hidden;
+	position: relative;
+	margin: 0;
+	height: 100%;
+
+}
+}

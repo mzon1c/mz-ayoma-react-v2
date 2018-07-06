@@ -1,0 +1,107 @@
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/printers.css">
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+div.modal-body{
+
+   overflow: auto;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="images/climber.jpg" alt="ai" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="images/climber.jpg" alt="ad" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="images/climber.jpg" alt="ac Lights" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="">
+    <img src="images/climber.jpg" alt="as" width="300" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_parent" data-target="#myModal" data-toggle="modal" data-backdrop="false">
+    <img id="btnPopModal" src="images/epson.jpg" alt="epson" width="300" height="200">
+  </a>
+  <div class="desc">wazaasnajskksjad</div>
+</div>
+
+<!-- Trigger the modal with a button
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+-->
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog" >
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">EPSON Model</h4>
+      </div>
+      <div class="modal-body">
+       <img src="images/epson.jpg" width="200" height="200" align="left">
+           Epson printer sajhdasndjkas adjkasdkas dadaudhakdhas da hadhaskdha dasdahsdaskdjaskjd as das djkhaskd ahd daskjd ad askjdhasdkjashdas sad asdaskd asdasda la
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

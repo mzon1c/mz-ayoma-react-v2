@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Ayoma Classic</title>
+	<script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/menu.js"></script>
+	<script>
+	function injectJS() {
+        var iFrameHead = window.frames["myiframe"].document.getElementsByTagName("head")[0];
+        var myscript = document.createElement('script');
+        myscript.type = 'text/javascript';
+        myscript.src = 'js/menu.js'; // replace this with your SCRIPT
+        iFrameHead.appendChild(myscript);
+}
+	</script>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO" height="100" width="200"></a>
+			</div>
+		<ul id="navigation">
+				<iframe src="menu.html" scrolling="no" style="border: 0; width: 100%; height: 260px; overflow:hidden;" onload="injectJS()"></iframe>
+				<!--
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li> -->
+			</ul>
+		</div>
+		<!-- /#header -->
+
+		<div id="contents">
+			<!-- <div id="adbox">
+				<img src="images/glider.jpg" alt="Img" height="444" width="630">
+				<div class="info">
+					<h1>Ayoma provides</h1>
+					<p>
+
+					</p>
+					<a href="index.html" class="more">Click here for more</a>
+				</div>
+			</div> -->
+			<!-- /#adbox -->
+			<h1>More details</h1>
+			<div class="section">
+				<p class="column2">
+					test 1
+				</p>
+				<p class="column2">
+					test 2
+				<h4>tes 2 ~~~~~~~~~~<a href="index.html">click here &gt;&gt;</a></h4>
+			</div>
+			<ul id="categories" class="section">
+				<li>
+					<img src="images/gear.png" alt="Img" height="53" width="60">
+					<h3>Title One</h3>
+					<p>
+						title 1 content
+					</p>
+					<a href="index.html" class="select">Select</a>
+				</li>
+				<li>
+					<img src="images/graph.png" alt="Img" height="53" width="60">
+					<h3>Title Two</h3>
+					<p>
+					title 2 content
+					</p>
+					<a href="index.html" class="select">Select</a>
+				</li>
+				<li>
+					<img src="images/globe.png" alt="Img" height="53" width="60">
+					<h3>Title Three</h3>
+					<p>
+					title 3 content
+					</p>
+					<a href="index.html" class="select">Select</a>
+				</li>
+			</ul>
+			<!-- /#categories -->
+		</div>
+
+		<!-- /#contents -->
+		<div id="footer">
+			<iframe src="footer.html" scrolling="no" style="border: 0; width: 100%; height: 260px; overflow:hidden;">Your browser doesn't support iFrames.</iframe>
+
+
+		</div>
+		<!-- /#footer -->
+
+	</div>
+	<!-- /#page -->
+
+</body>
+</html>

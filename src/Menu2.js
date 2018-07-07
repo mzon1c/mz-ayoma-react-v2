@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Products from './Products';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Services2 from './Services2';
-import Products2 from './Products2'
+import Products2 from './Products2';
 
 
 const handleClick = (id,event) => {

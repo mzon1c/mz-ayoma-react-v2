@@ -10,10 +10,17 @@ import './index.css';
 
 const routes= [
   {
-    path: "/home",
+    path:"/services",
+    exact: true,
+    sidebar: () => <div> hehshshshsh</div>,
+    main: () => <h2>ksajdnsad</h2>
+  },
+  {
+    path: "/idcard",
     exact: true,
     sidebar: () => <div>home!</div>,
-    main: () => <h2>Home</h2>
+    main: () => <div><iframe width="400" height="550" frameBorder="0"  src="https://script.google.com/macros/s/AKfycbyjZLq7iRxBuV_cuScH8tE5whVQcTsgEx_YnFQUmB89JQZQBWE/exec" sandbox></iframe>
+    <img width="400px" height="550px" frameBorder="0"  src=".images/idcard_layout.png" /></div>
   },
   {
     path: "/bubblegum",
@@ -40,13 +47,22 @@ const Services2 = () => (
       >
         <ul  className="puerto-menu" >
           <li>
-            <Link  to="/home">Home</Link>
+            <Link  to="/idcard">ID Card</Link>
           </li>
           <li>
-            <Link  to="/bubblegum">Bubblegum</Link>
+            <Link  to="/bubblegum">Multi Color Lanyard (TAG)</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Shoelaces</Link>
+            <Link to="/shoelaces">Coffee Mug</Link>
+          </li>
+          <li>
+            <Link to="/shoelaces">Visiting Card</Link>
+          </li>
+          <li>
+            <Link to="/shoelaces">A4 Leaflet</Link>
+          </li>
+          <li>
+            <Link to="/shoelaces">Badges</Link>
           </li>
         </ul>
 

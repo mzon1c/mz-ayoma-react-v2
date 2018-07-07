@@ -20,7 +20,7 @@ const routes= [
     exact: true,
     sidebar: () => <div>home!</div>,
     main: () => <div><iframe width="400" height="550" frameBorder="0"  src="https://script.google.com/macros/s/AKfycbyjZLq7iRxBuV_cuScH8tE5whVQcTsgEx_YnFQUmB89JQZQBWE/exec" sandbox></iframe>
-    <img width="400px" height="550px" frameBorder="0"  src=".images/idcard_layout.png" /></div>
+    <img width="400px" height="550px" frameBorder="0"  src="images/idcard_layout.png" /></div>
   },
   {
     path: "/bubblegum",

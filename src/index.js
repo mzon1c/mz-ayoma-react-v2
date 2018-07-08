@@ -17,7 +17,7 @@ ReactDOM.render(
    <Route exact path='/' component={Menu2} />
    <Route exact path='/products' component={Menu2} />
    <Route path='/services' component={Menu2} />
-   <Route path='/home' component={Menu2} />
+   <Route path='/idcard' component={Menu2} />
    <Route path='/bubblegum' component={Menu2} />
    <Route path='/shoelaces' component={Menu2} />
       

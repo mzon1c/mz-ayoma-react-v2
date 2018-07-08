@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.css';
+import handleClick from './Menu2';
 
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
@@ -12,15 +13,16 @@ const routes= [
   {
     path:"/services",
     exact: true,
-    sidebar: () => <div> hehshshshsh</div>,
-    main: () => <h2>ksajdnsad</h2>
+    sidebar: () => <div> </div>,
+    main: () => <div><h2>Variety of Services to choose from....</h2>
+    <h3>jhkjhjjk kjk j jkb jkb kjb jb kjb kj bjk bkj  ljkb khb lkh v kjb hb vh jv bkj hvhj b hj vbkj b hkb kj</h3></div>
   },
   {
     path: "/idcard",
     exact: true,
     sidebar: () => <div>home!</div>,
-    main: () => <div><iframe width="400" height="550" frameBorder="0"  src="https://script.google.com/macros/s/AKfycbyjZLq7iRxBuV_cuScH8tE5whVQcTsgEx_YnFQUmB89JQZQBWE/exec" sandbox></iframe>
-    <img width="400px" height="550px" frameBorder="0"  src="images/idcard_layout.png" /></div>
+    main: () => <div><iframe width="400" height="550" frameBorder="0"  src="./ayoma.html" sandbox></iframe>
+    <img width="400px" height="550px" frameBorder="0"  src="./images/idcard_layout.png" /></div>
   },
   {
     path: "/bubblegum",
@@ -47,7 +49,7 @@ const Services2 = () => (
       >
         <ul  className="puerto-menu" >
           <li>
-            <Link  to="/idcard">ID Card</Link>
+            <Link onClick={(e) => handleClick("2",e)} to="/idcard">ID Card</Link>
           </li>
           <li>
             <Link  to="/bubblegum">Multi Color Lanyard (TAG)</Link>

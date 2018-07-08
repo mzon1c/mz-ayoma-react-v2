@@ -141,8 +141,8 @@ class Products extends Component {
   			<a href="javascript:void(0);" onClick={selectmenu3} id="3">
 
 
-  					<strong>T-Shirt/Mug</strong>
-  					<small>...</small>
+  					<strong>SUBLIMATION </strong>
+  					<small>T-Shirt/Mug</small>
 
   			</a>
   		</li>

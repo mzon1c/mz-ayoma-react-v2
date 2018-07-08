@@ -57,6 +57,9 @@ const Menu2 = () => (
       <Route path="/products" component={Products}/>
 
        <Route path="/services" component={Services2}/>
+       <Route path="/idcard" component={Services2}/>
+       <Route path="/bubblegum" component={Services2}/>
+
     
     </div>  
   </Router>

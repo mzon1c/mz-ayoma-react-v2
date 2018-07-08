@@ -71,7 +71,7 @@ class Products2 extends Component {
   			<a onClick={(e)=>selectsidemenu(3)} id="3">
 
 
-  					<strong>T-Shirt/Mug</strong>
+  					<strong>SUBLIMATION (T-Shirt/Mug)</strong>
   					<small>...</small>
 
   			</a>

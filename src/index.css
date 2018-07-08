@@ -39,6 +39,7 @@ body {
 
 }
 #page {
+
 	width: 100%;
 	margin: 0 auto;
 }
@@ -51,9 +52,18 @@ h1 {
 	margin: 0 0 30px;
 	text-align: center;
 }
-h3 {
+
+h2{
+
 	color: #ea8312;
 	font: bold 18px/24px 'OpenSans';
+
+
+}
+
+h3 {
+	color: #78450d;
+	font: bold 14px/24px 'OpenSans';
 	margin: 24px 0;
 }
 h4 {

@@ -14,8 +14,8 @@ const routes= [
     path:"/services",
     exact: true,
     sidebar: () => <div> </div>,
-    main: () => <div><h2>Variety of Services to choose from....</h2>
-    <h3>jhkjhjjk kjk j jkb jkb kjb jb kjb kj bjk bkj  ljkb khb lkh v kjb hb vh jv bkj hvhj b hj vbkj b hkb kj</h3></div>
+    main: () => <div><h2>ALL KIND OF PRINTING SERVICES PROVIDED</h2>
+    <h3 className="serv-cont">We provide a wide variety of printing services ranging from leaflet printing to ID card printing with various options. You can choose the required service that you wish to seek from us, submit the design file that was made following the provided template and we will deliver the product as fast as we possibly can. You can submit your design along with the quantity and contact details so that we will be able to reach and deliver the product to you.<br/><br/> Happy Shopping! </h3></div>
   },
   {
     path: "/idcard",

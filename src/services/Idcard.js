@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import '../index.css';
 import '../submenu.css';
 import handleClick from '../Menu2';
-import Idcardmodal from "./Idcardmodal";
+import Idcardmodal from "./wst_Idcardmodal";
 
 
 // Each logical "route" has two components, one for
@@ -27,19 +27,28 @@ const routes= [
     path: "/idcard/pvc",
     exact: true,
     sidebar: () => <div></div>,
-    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../idcardpvc.html"></iframe>
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/idcard/idcardpvc.html"></iframe>
    
    </div>
   },
   {
-    path: "/bubblegum",
-    sidebar: () => <div>bubblegum!</div>,
-    main: () => <h2>Bubblegum</h2>
+    path: "/idcard/uv",
+    sidebar: () =><div></div>,
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/idcard/idcarduv.html"></iframe>
+   
+    </div>
   },
   {
-    path: "/shoelaces",
-    sidebar: () => <div>shoelaces!</div>,
-    main: () => <h2>Shoelaces</h2>
+    path: "/idcard/specialpvc",
+    sidebar: () => <div></div>,
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/idcard/idcardthanks.html"></iframe>
+    </div>
+  },
+  {
+    path: "/idcard/businesscard",
+    sidebar: () => <div></div>,
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/idcard/idcardbusiness.html"></iframe>
+    </div>
   }
 ];
 
@@ -59,13 +68,13 @@ const Idcard = () => (
             <Link onClick={(e) => handleClick("2",e)} to="/idcard/pvc">PVC ID Cards</Link>
           </li>
           <li>
-            <Link  to="/bubblegum">UV Direct ID Cards</Link>
+            <Link  to="/idcard/uv">UV Direct ID Cards</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Special Thanks ID Card on PVC</Link>
+            <Link to="/idcard/specialpvc">Special Thanks ID Card on PVC</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Special Bussiness Card on PVC</Link>
+            <Link to="/idcard/businesscard">Special Business Card on PVC</Link>
           </li>
         </ul>
 

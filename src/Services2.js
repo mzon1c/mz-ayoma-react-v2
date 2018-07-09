@@ -7,6 +7,7 @@ import Tag from "./services/Tag";
 import Offset from "./services/Offset";
 import Coffee from "./services/Coffee";
 import Badges from "./services/Badges";
+import Dome from "./services/Dome";
 
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
@@ -31,22 +32,27 @@ const routes= [
   },
   {
     path: "/tag",
-    sidebar: () => <div>bubblegum!</div>,
-    main: () => <h2><Tag/></h2>
+    sidebar: () => <div></div>,
+    main: () => <div><Tag/></div>
   },
   {
     path: "/offset",
-    sidebar: () => <div>shoelaces!</div>,
+    sidebar: () => <div></div>,
     main: () => <h2><Offset/></h2>
   },
   {
     path: "/coffee",
-    sidebar: () => <div>coffee!</div>,
+    sidebar: () => <div></div>,
     main: () => <h2><Coffee/></h2>
   },
   {
-    path: "/badges",
-    sidebar: () => <div>badges!</div>,
+    path: "/dome",
+    sidebar: () => <div></div>,
+    main: () => <h2><Dome/></h2>
+  },
+  {
+    path: "/badge",
+    sidebar: () => <div></div>,
     main: () => <h2><Badges/></h2>
   }
 ];
@@ -79,7 +85,7 @@ const Services2 = () => (
             <Link to="/dome">DOME Stickers</Link>
           </li>
           <li>
-            <Link to="/badges">Badges</Link>
+            <Link to="/badge">Badges</Link>
           </li>
         </ul>
 

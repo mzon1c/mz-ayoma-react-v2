@@ -20,21 +20,14 @@ const routes= [
     <h3 className="serv-cont">We provide a wide variety of printing services ranging from leaflet printing to ID card printing with various options. You can choose the required service that you wish to seek from us, submit the design file that was made following the provided template and we will deliver the product as fast as we possibly can. You can submit your design along with the quantity and contact details so that we will be able to reach and deliver the product to you.<br/><br/> Happy Shopping! </h3></div>
   },
   {
-    path: "/offset/brochure",
-    exact: true,
+    path: "/dome/dome",
     sidebar: () => <div></div>,
-    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/offset/brochure.html"></iframe>
-    </div>
-  },
-  {
-    path: "/offset/visitingcard",
-    sidebar: () => <div></div>,
-    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/offset/visitingcard.html"></iframe>
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/dome/domestickers.html"></iframe>
     </div>
   }
 ];
 
-const Offset = () => (
+const Dome = () => (
   <Router>
     <div style={{ display: "flex" }}>
       <div
@@ -47,11 +40,9 @@ const Offset = () => (
       >
         <ul  className="puerto-menu-sub" >
           <li>
-            <Link onClick={(e) => handleClick("2",e)} to="/offset/brochure">Broschure 22x28 mm</Link>
+            <Link onClick={(e) => handleClick("2",e)} to="/dome/dome">Dome Stickers</Link>
           </li>
-          <li>
-            <Link  to="/offset/visitingcard">Visiting Card 90x55 mm</Link>
-          </li>
+         
         </ul>
 
         {routes.map((route, index) => (
@@ -87,4 +78,4 @@ const Offset = () => (
   </Router>
 );
 
-export default Offset;
+export default Dome;

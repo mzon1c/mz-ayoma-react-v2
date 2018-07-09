@@ -20,21 +20,11 @@ const routes= [
     <h3 className="serv-cont">We provide a wide variety of printing services ranging from leaflet printing to ID card printing with various options. You can choose the required service that you wish to seek from us, submit the design file that was made following the provided template and we will deliver the product as fast as we possibly can. You can submit your design along with the quantity and contact details so that we will be able to reach and deliver the product to you.<br/><br/> Happy Shopping! </h3></div>
   },
   {
-    path: "/idcard/lalla",
+    path: "/mug/11ounce",
     exact: true,
-    sidebar: () => <div>home!</div>,
-    main: () => <div>
-    <img width="auto" height="auto" frameBorder="0"  src="./images/temp_idcard.png" /></div>
-  },
-  {
-    path: "/bubblegum",
-    sidebar: () => <div>bubblegum!</div>,
-    main: () => <h2>Bubblegum</h2>
-  },
-  {
-    path: "/shoelaces",
-    sidebar: () => <div>shoelaces!</div>,
-    main: () => <h2>Shoelaces</h2>
+    sidebar: () => <div></div>,
+    main: () => <div class="sub-sub-view"><iframe sandbox width="100%" height="600px" scrolling="no" frameBorder="0" src="../services/mug/11ouncemug.html"></iframe>
+    </div>
   }
 ];
 
@@ -51,7 +41,7 @@ const Coffee = () => (
       >
         <ul  className="puerto-menu-sub" >
           <li>
-            <Link onClick={(e) => handleClick("2",e)} to="/idcard">Coffee Mug Printing 11ounce ~ 200x90 mm</Link>
+            <Link onClick={(e) => handleClick("2",e)} to="/mug/11ounce">Coffee Mug Printing 11ounce ~ 200x90 mm</Link>
           </li>
         </ul>
 

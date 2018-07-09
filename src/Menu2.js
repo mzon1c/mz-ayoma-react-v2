@@ -7,12 +7,12 @@ import Products from './Products0';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Services2 from './Services2';
 import Products2 from './Products2';
-  
+import Contact from './Contact';
 
 
 const handleClick = (id,event) => {
 var i;
-  for(i=0;i<3;i++)
+  for(i=0;i<4;i++)
   {
 
     
@@ -43,6 +43,9 @@ const Menu2 = () => (
         <li id="2" onClick={(e) => handleClick("2",e)} >
           <Link to="/services">Services</Link>
         </li>
+        <li id="3" onClick={(e) => handleClick("3",e)} >
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
      
       </div>
@@ -64,6 +67,8 @@ const Menu2 = () => (
        <Route path="/mug" component={Services2}/>
        <Route path="/dome" component={Services2}/>
        <Route path="/badges" component={Services2}/>
+
+        <Route path="/contact" component={Contact}/>
 
     
     </div>  

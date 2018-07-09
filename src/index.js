@@ -19,8 +19,8 @@ ReactDOM.render(
    <Route path='/idcard' component={Menu2} />
    <Route path='/bubblegum' component={Menu2} />
    <Route path='/shoelaces' component={Menu2} />
-      
    <Route path='/contact' component={Menu2} />
+
    
 
    </div>

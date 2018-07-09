@@ -98,6 +98,30 @@ p a:hover {
 
 
 
+
+}
+
+.sub-sub-view{
+
+
+margin-left:15%;
+
+}
+
+
+.buttons{
+background-color: #ea8312;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 8px;
+
+
+
 }
 
 /* SERVICES PAGE END */

@@ -2,6 +2,11 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import './index.css';
 import handleClick from './Menu2';
+import Idcard from "./services/Idcard";
+import Tag from "./services/Tag";
+import Offset from "./services/Offset";
+import Coffee from "./services/Coffee";
+import Badges from "./services/Badges";
 
 // Each logical "route" has two components, one for
 // the sidebar and one for the main area. We want to
@@ -20,19 +25,29 @@ const routes= [
   {
     path: "/idcard",
     exact: true,
-    sidebar: () => <div>home!</div>,
-    main: () => <div><iframe width="400" height="550" frameBorder="0"  src="./ayoma.html" sandbox></iframe>
-    <img width="400px" height="550px" frameBorder="0"  src="./images/idcard_layout.png" /></div>
+    sidebar: () => <div></div>,
+    main: () => <div><Idcard/>
+    </div>
   },
   {
-    path: "/bubblegum",
+    path: "/tag",
     sidebar: () => <div>bubblegum!</div>,
-    main: () => <h2>Bubblegum</h2>
+    main: () => <h2><Tag/></h2>
   },
   {
-    path: "/shoelaces",
+    path: "/offset",
     sidebar: () => <div>shoelaces!</div>,
-    main: () => <h2>Shoelaces</h2>
+    main: () => <h2><Offset/></h2>
+  },
+  {
+    path: "/coffee",
+    sidebar: () => <div>coffee!</div>,
+    main: () => <h2><Coffee/></h2>
+  },
+  {
+    path: "/badges",
+    sidebar: () => <div>badges!</div>,
+    main: () => <h2><Badges/></h2>
   }
 ];
 
@@ -52,19 +67,19 @@ const Services2 = () => (
             <Link onClick={(e) => handleClick("2",e)} to="/idcard">ID Card</Link>
           </li>
           <li>
-            <Link  to="/bubblegum">Multi Color Lanyard (TAG)</Link>
+            <Link  to="/tag">Multi Color Lanyard (TAG)</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Coffee Mug</Link>
+            <Link to="/offset">Offset</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Visiting Card</Link>
+            <Link to="/coffee">Coffee Mug</Link>
           </li>
           <li>
-            <Link to="/shoelaces">A4 Leaflet</Link>
+            <Link to="/dome">DOME Stickers</Link>
           </li>
           <li>
-            <Link to="/shoelaces">Badges</Link>
+            <Link to="/badges">Badges</Link>
           </li>
         </ul>
 

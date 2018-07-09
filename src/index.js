@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Menu from './Menu';
 import Footer from './Footer';
 import Ahome from './Ahome';
 import Menu2 from './Menu2'

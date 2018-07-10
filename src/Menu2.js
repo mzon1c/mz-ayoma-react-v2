@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import Ahome from './Ahome';
 import './index.css';
 import Footer from './Footer';
-import Products from './Products0';
+import Products0 from './Products0';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Services2 from './Services2';
-import Products2 from './Products2';
+import Products2 from './wst_Products2';
 import Contact from './Contact';
 
 
@@ -58,15 +58,16 @@ const Menu2 = () => (
   
      
 
-      <Route path="/products" component={Products2}/>
+      <Route path="/products" component={Products0}/>
 
        <Route path="/services" component={Services2}/>
        <Route path="/idcard" component={Services2}/>
        <Route path="/tag" component={Services2}/>
        <Route path="/offset" component={Services2}/>
-       <Route path="/mug" component={Services2}/>
+       <Route path="/coffee" component={Services2}/>
        <Route path="/dome" component={Services2}/>
-       <Route path="/badges" component={Services2}/>
+       <Route path="/badge" component={Services2}/>
+       <Route path="/badge/badge44mm" component={Services2}/>
 
         <Route path="/contact" component={Contact}/>
 

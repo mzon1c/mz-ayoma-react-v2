@@ -29,10 +29,10 @@ class Contact extends Component {
                 <br/>
                 <h2>41/2493, 1st Floor Rasheed Building,<br/>Opp AV Residency, St Benedict Road,<br/> Ernakulam,Kochi, Kerala 682018</h2>
                 
-                <h3>ayomaclassic@gmail.com</h3>
+                <h3><a href="mailto:ayomaclassic@gmail.com">ayomaclassic@gmail.com</a></h3>
                 
-                <h3>Tel: +91-484-2398373</h3>
-                <h3>Mob: +91-9847404373</h3>
+                <h3>Tel: <a href="tel:+91-484-2398373">+91-484-2398373</a></h3>
+                <h3>Mob:<a href="tel:+91-9847404373"> +91-9847404373</a></h3>
                 </div>
                 <br/>
                 <hr width="90%"/>

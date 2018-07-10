@@ -46,6 +46,17 @@ body {
 img {
 	border: 0;
 }
+
+a{
+
+
+	color: inherit;
+	font: bold 14px/24px 'OpenSans';
+	margin: 24px 0;
+	text-decoration: none;
+
+}
+
 h1 {
 	color: #6c6e69;
 	font: 30px/30px 'OpenSans-Light';
@@ -88,6 +99,15 @@ p a:hover {
 
 
 /* SERVICES PAGE  START */
+
+
+.footertext{
+
+
+
+
+}
+
 
 .serv-cont{ 
  
@@ -453,9 +473,9 @@ text-align: center;
 	padding: 0;
 }
 #links > li {
-
-display: inline-block;
 	width: 20%;
+display: inline-block;
+	
 	margin: 0 2%;
 }
 #links h4 {

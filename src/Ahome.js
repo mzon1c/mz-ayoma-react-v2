@@ -31,7 +31,7 @@ class Ahome extends Component {
               <p>
               Upload your design and we will get it printed according to your specifications in the shortest time possible
               </p>
-              <a href="index.html" class="buttons">Submit Design</a>
+              <a href="" class="buttons">Submit Design</a>
             </li>
             <li>
            
@@ -39,7 +39,7 @@ class Ahome extends Component {
               <p>
               All the supplies you need ranging from different types of inks to all sorts of printing equipment as well as printing materials and its stationary items. 
               </p>
-              <a href="index.html" class="buttons"> Products</a>
+              <a href="" class="buttons"> Products</a>
             </li>
             <li>
              
@@ -47,7 +47,7 @@ class Ahome extends Component {
               <p>
               We provide you with the top-quality services that is both affordable and reasonable for the customer and ensures fast delivery of our services
               </p>
-              <a href="index.html" class="buttons">Contact</a>
+              <a href="tel:+91-9847404373" class="buttons">Contact</a>
             </li>
           </ul>
           </div>

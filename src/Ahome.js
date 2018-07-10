@@ -22,15 +22,8 @@ class Ahome extends Component {
 
 
           <h1></h1>
-          <div class="section">
-            <p class="column2">
-             
-            </p>
-            <p class="column2">
-            </p>
-            <h4><a href="index.html">click here &gt;&gt;</a></h4>
-          </div >
-          <div>
+      
+          <div> 
           <ul id="categories" class="section">
             <li>
            

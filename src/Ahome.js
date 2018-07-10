@@ -21,46 +21,49 @@ class Ahome extends Component {
         <div >
 
 
-          <h1>More details</h1>
+          <h1></h1>
           <div class="section">
             <p class="column2">
-              test 1
+             
             </p>
             <p class="column2">
-              test 2 </p>
-            <h4>tes 2 ~~~~~~~~~~<a href="index.html">click here &gt;&gt;</a></h4>
-          </div>
+            </p>
+            <h4><a href="index.html">click here &gt;&gt;</a></h4>
+          </div >
+          <div>
           <ul id="categories" class="section">
             <li>
-              <img src="images/gear.png" alt="Img" height="53" width="60"/>
-              <h3>Title One</h3>
+           
+              <h2>Get it Printed!</h2>
               <p>
-                title 1 content
+              Upload your design and we will get it printed according to your specifications in the shortest time possible
               </p>
-              <a href="index.html" class="select">Select</a>
+              <a href="index.html" class="buttons">Submit Design</a>
             </li>
             <li>
-              <img src="images/graph.png" alt="Img" height="53" width="60"/>
-              <h3>Title Two</h3>
+           
+              <h2>All the supplies you need</h2>
               <p>
-              title 2 content
+              All the supplies you need ranging from different types of inks to all sorts of printing equipment as well as printing materials and its stationary items. 
               </p>
-              <a href="index.html" class="select">Select</a>
+              <a href="index.html" class="buttons"> Products</a>
             </li>
             <li>
-              <img src="images/globe.png" alt="Img" height="53" width="60"/>
-              <h3>Title Three</h3>
+             
+              <h2>Feel free to contact us</h2>
               <p>
-              title 3 content
+              We provide you with the top-quality services that is both affordable and reasonable for the customer and ensures fast delivery of our services
               </p>
-              <a href="index.html" class="select">Select</a>
+              <a href="index.html" class="buttons">Contact</a>
             </li>
           </ul>
-
+          </div>
           <br/>
+          <hr width="90%"/>
           <br/>
+          <h1>Dealers of</h1>
           <iframe width="99.7%" src="./slidercarousel.html" frameBorder="0"></iframe>
-
+         
         </div>
       );
 

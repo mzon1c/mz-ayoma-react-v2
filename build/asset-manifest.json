@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.fb2d46d7.css",
-  "main.css.map": "static/css/main.fb2d46d7.css.map",
-  "main.js": "static/js/main.44c8b900.js",
-  "main.js.map": "static/js/main.44c8b900.js.map",
+  "main.css": "static/css/main.2bb114c7.css",
+  "main.css.map": "static/css/main.2bb114c7.css.map",
+  "main.js": "static/js/main.84dfcf6b.js",
+  "main.js.map": "static/js/main.84dfcf6b.js.map",
   "static\\media\\OpenSans-ExtraBold.eot": "static/media/OpenSans-ExtraBold.cc661bf2.eot",
   "static\\media\\OpenSans-ExtraBold.svg": "static/media/OpenSans-ExtraBold.27c064a2.svg",
   "static\\media\\OpenSans-ExtraBold.ttf": "static/media/OpenSans-ExtraBold.8bac22ed.ttf",
@@ -23,6 +23,5 @@
   "static\\media\\fontawesome-webfontba72.svg?v=4.0.3": "static/media/fontawesome-webfontba72.0a799148.svg",
   "static\\media\\fontawesome-webfontba72.ttf?v=4.0.3": "static/media/fontawesome-webfontba72.dcb26c72.ttf",
   "static\\media\\fontawesome-webfontba72.woff?v=4.0.3": "static/media/fontawesome-webfontba72.3293616e.woff",
-  "static\\media\\fontawesome-webfontd41d.eot": "static/media/fontawesome-webfontd41d.8b27bc96.eot",
-  "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg"
+  "static\\media\\fontawesome-webfontd41d.eot": "static/media/fontawesome-webfontd41d.8b27bc96.eot"
 }

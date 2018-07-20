@@ -21,12 +21,11 @@ class Ahome extends Component {
         <div >
 
 
-          <h1></h1>
+          
       
-          <div> 
-          <ul id="categories" class="section">
+         
+          <ul id="categories">
             <li>
-           
               <h2>Get it Printed!</h2>
               <p>
               Upload your design and we will get it printed according to your specifications in the shortest time possible
@@ -50,12 +49,12 @@ class Ahome extends Component {
               <a href="tel:+91-9847404373" class="buttons">Contact</a>
             </li>
           </ul>
-          </div>
+         
           <br/>
           <hr width="90%"/>
           <br/>
           <h1>Dealers of</h1>
-          <iframe width="99.7%" src="./slidercarousel.html" frameBorder="0"></iframe>
+          <iframe id="sliderlog" scrolling="no" width="99.7%" src="./slidercarousel.html" frameBorder="0"></iframe>
          
         </div>
       );

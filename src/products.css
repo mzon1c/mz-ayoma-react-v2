@@ -601,12 +601,15 @@ border-right: 0%;
 
 @media only screen and (max-width: 479px) {
    .puerto-menu {
-   width: 50px;
+   width: 7%;
+  
  }
- .puerto-menu li a {
+ .puerto-menu li  {
    position: relative;
-   padding: 12px 16px;
-   height:20px;
+   padding: 250% 20%;
+
+   height:10%;
+  
  }
  .puerto-menu li a small {
    display: none;

@@ -44,13 +44,13 @@ render(){
 
                 <div>
                    
-                    <img height="auto" width="auto" src="./images/logo1.png"></img>
+                    <img height="auto" width="auto" className="footerlog" src="./images/logo1.png"></img>
                     <h4>Ayoma Classic is the supplier and dealer of most of the major brands of printing equipment and its accessories. We also provide printing servies of various kind, all of which you can browse through this website and place order for the printing service you require.</h4>
                 
                   </div>
               </li>
               <li>
-                <h1>Contact</h1>
+                <h1 className="footercon">Contact</h1>
                 <h4>Kochi</h4>
               <h2><a href="mailto:ayomaclassic@gmail.com">ayomaclassic@gmail.com</a></h2>
                 <h2><a href="tel:+91-484-2398373">+91-484-2398373</a></h2>

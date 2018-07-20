@@ -32,7 +32,8 @@ body {
 	min-width: 100px;
  overflow-x: hidden;
   max-width: 3840px;
- margin: 0;
+ margin: auto;
+ 
  padding: 0 0%;
  clear: both;
 
@@ -41,7 +42,7 @@ body {
 #page {
 
 	width: 100%;
-	margin: 0 auto;
+	
 }
 img {
 	border: 0;
@@ -52,7 +53,7 @@ a{
 
 	color: inherit;
 	font: bold 14px/24px 'OpenSans';
-	margin: 24px 0;
+
 	text-decoration: none;
 
 }
@@ -85,7 +86,7 @@ h4 {
 p {
 	color: #6c6e69;
 	font: 12px/24px 'OpenSans';
-	margin: 0;
+
 	padding: 0 0 24px;
 	text-shadow: 0 1px #fefbfb;
 }
@@ -185,6 +186,118 @@ width: 50%;
 
 @media screen and (min-width: 1000px){
 
+
+
+	/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background-color: #392723;
+	width: 100%;
+	border-top: 1px solid #cfd5d7;
+
+
+}
+#footer > div {
+text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+/** links **/
+#links {
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	margin: 5% 0 3%;
+	padding: 0;
+}
+#links > li {
+	width: 20%;
+display: inline-block;
+	
+	margin: 0 2%;
+}
+#links h4 {
+	color: #a6a8a3;
+	font: bold 14px/24px 'OpenSans';
+	margin: 0;
+
+}
+#links > li ul {
+	list-style: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#links > li ul li {
+	border-bottom: 1px solid #777777;
+	margin: 2% 0 0;
+	padding: 0 0 8px;
+}
+#links > li ul li a {
+	color: #eb983e;
+	font: 12px/24px 'OpenSans';
+	text-decoration: none;
+}
+#links > li ul li a:hover {
+	color: #bab9b8;
+}
+#connect a {
+	display: inline-block;
+	height: 10%;
+	padding-left: 15%;
+}
+	#connect a.twitter {
+		background-position: -301px -26px;
+	}
+	#connect a.facebook {
+		background-position: -301px -80px;
+	}
+	#connect a.googleplus {
+		background-position: -301px -136px;
+	}
+	#connect a.twitter:hover {
+		background-position: -301px 2px;
+	}
+	#connect a.facebook:hover {
+		background-position: -301px -52px;
+	}
+	#connect a.googleplus:hover {
+		background-position: -301px -108px;
+	}
+.footnote {
+	clear: both;
+	color: #6c6e69;
+	font: 10px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: none;
+}
+
+
+	#sliderlog{
+
+
+height: 10%;
+
+	}
+	
+/** categories **/
+#categories	{
+	text-align: center;
+	width: 93%;
+	
+
+}
+#categories li {
+display: inline-block;
+	width: 300px;
+	margin: 0 10px;
+
+}
+#categories li a.select {
+	margin: 0 auto;
+}
+
+
+
 /*------------------------------ HEADER ------------------------------*/
 	#header {
 		margin-bottom: 30px;
@@ -239,6 +352,16 @@ width: 50%;
 	color: #f39c12;
 	/*text-shadow: 0 1px #bf6d13;*/
 }
+
+
+/** about **/
+#about > div h4 {
+	color: #6c6e69;
+	font: bold 16px/24px 'OpenSans';
+	margin: 0;
+	text-align: center;
+}
+
 
 }
 .searchbar {
@@ -342,28 +465,7 @@ width: 50%;
 .info a.more {
 	margin: 0 auto;
 }
-/** categories **/
-#categories {
-	text-align: center;
-	width: 100%;
-	 
-}
-#categories li {
-display: inline-block;
-	width: 300px;
-	margin: 0 10px;
-	
-}
-#categories li a.select {
-	margin: 0 auto;
-}
-/** about **/
-#about > div h4 {
-	color: #6c6e69;
-	font: bold 16px/24px 'OpenSans';
-	margin: 0;
-	text-align: center;
-}
+
 /** blogs **/
 #blogs {
 	background-color: #fcfefa;
@@ -451,88 +553,6 @@ display: inline-block;
 	font: 26px/30px 'OpenSans-Light';
 	text-align: center;
 }
-/*------------------------------ FOOTER ------------------------------*/
-#footer {
-	background-color: #392723;
-	width: 100%;
-	border-top: 1px solid #cfd5d7;
-
-
-}
-#footer > div {
-text-align: center;
-	width: 100%;
-	margin: 0 auto;
-}
-/** links **/
-#links {
-	display: inline-block;
-	list-style: none;
-	width: 100%;
-	margin: 5% 0 3%;
-	padding: 0;
-}
-#links > li {
-	width: 20%;
-display: inline-block;
-	
-	margin: 0 2%;
-}
-#links h4 {
-	color: #a6a8a3;
-	font: bold 14px/24px 'OpenSans';
-	margin: 0;
-
-}
-#links > li ul {
-	list-style: none;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-}
-#links > li ul li {
-	border-bottom: 1px solid #777777;
-	margin: 2% 0 0;
-	padding: 0 0 8px;
-}
-#links > li ul li a {
-	color: #eb983e;
-	font: 12px/24px 'OpenSans';
-	text-decoration: none;
-}
-#links > li ul li a:hover {
-	color: #bab9b8;
-}
-#connect a {
-	display: inline-block;
-	height: 10%;
-	padding-left: 15%;
-}
-	#connect a.twitter {
-		background-position: -301px -26px;
-	}
-	#connect a.facebook {
-		background-position: -301px -80px;
-	}
-	#connect a.googleplus {
-		background-position: -301px -136px;
-	}
-	#connect a.twitter:hover {
-		background-position: -301px 2px;
-	}
-	#connect a.facebook:hover {
-		background-position: -301px -52px;
-	}
-	#connect a.googleplus:hover {
-		background-position: -301px -108px;
-	}
-.footnote {
-	clear: both;
-	color: #6c6e69;
-	font: 10px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	text-align: center;
-	text-shadow: none;
-}
 
 
 
@@ -549,8 +569,8 @@ html, body{
 #page{
 
 	overflow-x:hidden;
-
-
+	
+	width: 100%;
 
 }
 #header{
@@ -603,4 +623,139 @@ text-decoration: none;
 color: #f39c12;
 /*text-shadow: 0 1px #bf6d13;*/
 }
+
+
+/** categories **/
+#categories {
+
+
+
+margin-left: -35px;
+	text-align: center;
 }
+#categories li {
+display: inline-block; 
+}
+
+
+/** about **/
+#about > div h4 {
+	color: #6c6e69;
+	font: bold 16px/24px 'OpenSans';
+	margin: 0;
+	text-align: center;
+}
+
+#sliderlog{
+
+overflow: hidden;
+height: 60px;
+
+}
+
+
+	/*------------------------------ FOOTER ------------------------------*/
+	#footer {
+		background-color: #392723;
+		width: 100%;
+		border-top: 1px solid #cfd5d7;
+	
+	
+	}
+	#footer > div {
+	text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+	/** links **/
+	#links {
+		display: inline-block;
+		list-style: none;
+		width: 100%;
+		margin: 5% 0 3%;
+		padding: 0;
+		
+	}
+	#links > li {
+		
+		width: 90%;
+	display: inline-block;
+		
+		margin: 0 2%;
+	}
+	#links h4 {
+		color: #a6a8a3;
+		font: bold 14px/24px 'OpenSans';
+		margin: 0;
+	
+	}
+	#links > li ul {
+		list-style: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#links > li ul li {
+		border-bottom: 1px solid #777777;
+		margin: 2% 0 0;
+		padding: 0 0 8px;
+	}
+	#links > li ul li a {
+		color: #eb983e;
+		font: 12px/24px 'OpenSans';
+		text-decoration: none;
+	}
+	#links > li ul li a:hover {
+		color: #bab9b8;
+	}
+	#connect a {
+		display: inline-block;
+		height: 10%;
+		padding-left: 15%;
+	}
+		#connect a.twitter {
+			background-position: -301px -26px;
+		}
+		#connect a.facebook {
+			background-position: -301px -80px;
+		}
+		#connect a.googleplus {
+			background-position: -301px -136px;
+		}
+		#connect a.twitter:hover {
+			background-position: -301px 2px;
+		}
+		#connect a.facebook:hover {
+			background-position: -301px -52px;
+		}
+		#connect a.googleplus:hover {
+			background-position: -301px -108px;
+		}
+	.footnote {
+		clear: both;
+		color: #6c6e69;
+		font: 10px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		text-align: center;
+		text-shadow: none;
+	}
+
+
+	.footerlog{
+
+		margin-top:5%;
+	}
+
+	.footercon{
+
+		margin-top:5%;
+	}
+
+
+	/*PRODUCTS PAGE*/
+
+	
+
+
+
+}
+

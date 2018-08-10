@@ -14,8 +14,6 @@ const handleClick = (id,event) => {
 var i;
   for(i=0;i<4;i++)
   {
-
-    
     document.getElementById(i).className="null";
 
   }
@@ -49,15 +47,9 @@ const Menu2 = () => (
       </ul>
      
       </div>
-     
-
-
-     
-
+         
       <Route exact path="/" component={Ahome} /> 
   
-     
-
       <Route path="/products" component={Products0}/>
 
        <Route path="/services" component={Services2}/>

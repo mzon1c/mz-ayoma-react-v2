@@ -49,6 +49,9 @@ class Ahome extends Component {
               <a href="tel:+91-9847404373" class="buttons">Contact</a>
             </li>
           </ul>
+
+          <img src={require('./images/ayoma-1.jpg')} width="35%"></img>
+          <img src={require('./images/ayoma-2.jpg')} width="35%"></img>
          
           <br/>
           <hr width="90%"/>
